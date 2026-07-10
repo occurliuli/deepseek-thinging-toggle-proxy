@@ -1,0 +1,24 @@
+{
+  "env": {
+    "ANTHROPIC_AUTH_TOKEN": "sk-你的DeepSeek-API-Key填这里",
+    "ANTHROPIC_BASE_URL": "http://127.0.0.1:17861",
+    "ANTHROPIC_DEFAULT_FABLE_MODEL": "deepseek-v4-pro[1M]",
+    "ANTHROPIC_DEFAULT_FABLE_MODEL_NAME": "deepseek-v4-pro",
+    "ANTHROPIC_DEFAULT_HAIKU_MODEL": "deepseek-v4-flash",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL": "deepseek-v4-pro[1M]",
+    "ANTHROPIC_DEFAULT_OPUS_MODEL_NAME": "deepseek-v4-pro",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL": "deepseek-v4-pro[1M]",
+    "ANTHROPIC_DEFAULT_SONNET_MODEL_NAME": "deepseek-v4-pro",
+    "ANTHROPIC_MODEL": "deepseek-v4-pro"
+  },
+  "includeCoAuthoredBy": false,
+  "effortLevel": "high",
+  "permissions": {
+    "allow": [
+      "Read(E:\\AI agent\\deepseek_think_effort\\proxy-config.json)",
+      "Edit(E:\\AI agent\\deepseek_think_effort\\proxy-config.json)",
+      "Read(C:\\Users\\.claude)",
+      "Read(C:\\Users\\.claude\\skills\\*)"
+    ]
+  }
+}
