@@ -1,7 +1,9 @@
+本人：方案让AI抄的其中一部分思路，原贴 https://github.com/yunshu0909/deepseek-claude-setup,
+
 # DeepSeek Thinking Toggle Proxy
 
 让你在 Claude Code 里一句话开关 DeepSeek 的深度思考，**不用重启代理、不用改配置**。
-(本人：一下全为AI生成，错了不关我的事啊，)
+(本人：以下内容全为AI生成，我也看不懂，错了就问你的agent，)
 
 ## 它是什么
 
@@ -83,7 +85,8 @@ cp -r toggle-thinking ~/.claude/skills/
 | `关闭深度思考` | 关掉深度思考 |
 | `切换思考` | 当前是开→关闭，当前是关→打开 |
 
-**不需要重启任何东西，说完立刻生效。** （本人：屁话，你得先说让DP自己检索下skill，直接说DP会尝试去改setting.json）
+**不需要重启任何东西，说完立刻生效。** 
+（本人：屁话，你得先说让DP自己检索下skill，直接说DP会尝试去改setting.json，然后ON->OFF没问题，OFF->ON 会报个小错，不影响继续对话）
 
 ## 把 proxy 换成开机自启（可选）
 
